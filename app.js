@@ -35,8 +35,8 @@ function playWithHB(){
     document.getElementById('demo').style.display="none";
 
 
-    var cross_src="http://127.0.0.1:5500/project%201/tic%20tac%20toe/cross.png";
-    var zero_src="http://127.0.0.1:5500/project%201/tic%20tac%20toe/zero.png";
+    var cross_src="https://iamsahilparashar.github.io/tic-tac-toe/cross.png";
+    var zero_src="https://iamsahilparashar.github.io/tic-tac-toe/zero.png";
 
 function result() {
 	var img1, img1, img3, img4, img5, img6, img7, img8, img9;
@@ -190,12 +190,12 @@ function playagain() {
 flag = 1;
 function func1() {
 	if (flag == 1) {
-		document.getElementById("img1").src="cross_src";
+		document.getElementById("img1").src="https://iamsahilparashar.github.io/tic-tac-toe/cross.png";
 		document.getElementById("img1").style.display="block";
 		flag = 0;
 	}
 	else {
-        document.getElementById("img1").src="zero_src";
+        document.getElementById("img1").src="https://iamsahilparashar.github.io/tic-tac-toe/zero.png";
 		document.getElementById("img1").style.display="block";		
 		flag = 1;
 	}
@@ -203,12 +203,12 @@ function func1() {
 
 function func2() {
 	if (flag == 1) {
-		document.getElementById("img2").src="cross_src";
+		document.getElementById("img2").src="https://iamsahilparashar.github.io/tic-tac-toe/cross.png";
 		document.getElementById("img2").style.display="block";
 		flag = 0;
 	}
 	else {
-		document.getElementById("img2").src="zero_src";
+		document.getElementById("img2").src="https://iamsahilparashar.github.io/tic-tac-toe/zero.png";
 		document.getElementById("img2").style.display="block";
 		flag = 1;
 	}
@@ -216,12 +216,12 @@ function func2() {
 
 function func3() {
 	if (flag == 1) {
-		document.getElementById("img3").src="cross_src";
+		document.getElementById("img3").src="https://iamsahilparashar.github.io/tic-tac-toe/cross.png";
 		document.getElementById("img3").style.display="block";
 		flag = 0;
 	}
 	else {
-		document.getElementById("img3").src="zero_src";
+		document.getElementById("img3").src="https://iamsahilparashar.github.io/tic-tac-toe/zero.png";
 		document.getElementById("img3").style.display="block";
 		flag = 1;
 	}
@@ -229,12 +229,12 @@ function func3() {
 
 function func4(){
 	if (flag == 1) {
-		document.getElementById("img4").src="cross_src";
+		document.getElementById("img4").src="https://iamsahilparashar.github.io/tic-tac-toe/cross.png";
 		document.getElementById("img4").style.display="block";
 		flag = 0;
 	}
 	else {
-		document.getElementById("img4").src="zero_src";
+		document.getElementById("img4").src="https://iamsahilparashar.github.io/tic-tac-toe/zero.png";
 		document.getElementById("img4").style.display="block";
 		flag = 1;
 	}
@@ -242,12 +242,12 @@ function func4(){
 
 function func5() {
 	if (flag == 1) {
-		document.getElementById("img5").src="cross_src";
+		document.getElementById("img5").src="https://iamsahilparashar.github.io/tic-tac-toe/cross.png";
 		document.getElementById("img5").style.display="block";
 		flag = 0;
 	}
 	else {
-		document.getElementById("img5").src="zero_src";
+		document.getElementById("img5").src="https://iamsahilparashar.github.io/tic-tac-toe/zero.png";
 		document.getElementById("img5").style.display="block";
 		flag = 1;
 	}
@@ -255,12 +255,12 @@ function func5() {
 
 function func6() {
 	if (flag == 1) {
-		document.getElementById("img6").src="cross_src";
+		document.getElementById("img6").src="https://iamsahilparashar.github.io/tic-tac-toe/cross.png";
 		document.getElementById("img6").style.display="block";
 		flag = 0;
 	}
 	else {
-		document.getElementById("img6").src="zero_src";
+		document.getElementById("img6").src="https://iamsahilparashar.github.io/tic-tac-toe/zero.png";
 		document.getElementById("img6").style.display="block";
 		flag = 1;
 	}
@@ -268,12 +268,12 @@ function func6() {
 
 function func7() {
 	if (flag == 1) {
-		document.getElementById("img7").src="cross_src";
+		document.getElementById("img7").src="https://iamsahilparashar.github.io/tic-tac-toe/cross.png";
 		document.getElementById("img7").style.display="block";
 		flag = 0;
 	}
 	else {
-		document.getElementById("img7").src="zero_src";
+		document.getElementById("img7").src="https://iamsahilparashar.github.io/tic-tac-toe/zero.png";
 		document.getElementById("img7").style.display="block";
 		flag = 1;
 	}
@@ -281,12 +281,12 @@ function func7() {
 
 function func8() {
 	if (flag == 1) {
-		document.getElementById("img8").src="cross_src";
+		document.getElementById("img8").src="https://iamsahilparashar.github.io/tic-tac-toe/cross.png";
 		document.getElementById("img8").style.display="block";
 		flag = 0;
 	}
 	else {
-		document.getElementById("img8").src="zero_src";
+		document.getElementById("img8").src="https://iamsahilparashar.github.io/tic-tac-toe/zero.png";
 		document.getElementById("img8").style.display="block";
 		flag = 1;
 	}
@@ -294,12 +294,12 @@ function func8() {
 
 function func9() {
 	if (flag == 1) {
-		document.getElementById("img9").src="cross_src";
+		document.getElementById("img9").src="https://iamsahilparashar.github.io/tic-tac-toe/cross.png";
 		document.getElementById("img9").style.display="block";
 		flag = 0;
 	}
 	else {
-		document.getElementById("img9").src="zero_src";
+		document.getElementById("img9").src="https://iamsahilparashar.github.io/tic-tac-toe/zero.png";
 		document.getElementById("img9").style.display="block";
 		flag = 1;
 	}
