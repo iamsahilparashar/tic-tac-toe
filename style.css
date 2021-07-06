@@ -1,0 +1,349 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+body{
+    background:url("LandscapeBW.jpg");
+    /* background-repeat: no-repeat; */
+    background-size: 100vw 100vh;
+    /* background-color: rgba(117, 80, 80, 0.4); */
+    background-color: rgba(255, 255, 255, 0.4);
+    background-blend-mode:lighten;
+
+}
+
+header{
+    margin-left: 20vw;
+}
+.btn {
+    position: relative;
+    padding: 1vw 1.5vw;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+    font-size: 2vw;
+    margin: 2vw 2.8vw;
+}
+.btn.effect {
+    color:black;
+}
+
+.btn.effect.effect::after,
+.btn.effect.effect::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    border: 4px solid;
+    transition: all 0.6s ease;
+    border-radius: 2px;
+}
+
+.btn.effect.effect::after {
+    bottom: 0;
+    right: 0;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-bottom-color: black;
+    border-right-color: black;
+}
+
+.btn.effect.effect::before {
+    top: 0;
+    left: 0;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+    border-top-color: black;
+    border-left-color: black;
+}
+
+.btn.effect.effect:hover:after,
+.btn.effect.effect:hover:before {
+    width: 100%;
+    height: 100%;
+}
+#players{
+    position: relative;
+    padding: 1vw 1.5vw;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+    font-size: 2vw;
+    margin-top:10vh;
+}
+#playersName{
+    display:none;
+}
+#human{
+    display:none;
+    margin-left: 29vw;
+}
+#choice{
+    display:none;
+    margin-left:37.3vw;
+}
+.choice{
+    border: 0.4vw solid black;
+    color:black;
+    font-size:2vw
+}
+#ground{
+    margin-left: 32vw;
+    margin-top: 2vh;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3,11.3vw);
+    grid-template-rows: repeat(3,11.3vw);
+
+}
+.box{
+    border-top:0.3vw solid black;
+    border-left:0.3vw solid black;
+    border-bottom:0.3vw solid black;
+    border-right:0.3vw solid black;
+    height:11vw;
+    width:11vw;
+}
+img{
+    width:80%;
+    height:80%;
+    margin: 5% 5% 5% 5%;
+}
+#box1{
+    border-top:0.3vw solid transparent;
+    border-left:0.3vw solid transparent;
+}
+#box2{
+    border-top:0.3vw solid transparent;
+}
+#box3{
+    border-top:0.3vw solid transparent;
+    border-right:0.3vw solid transparent;
+}
+#box4{
+    border-left:0.3vw solid transparent;
+}
+#box6{
+    border-right:0.3vw solid transparent;
+}
+#box7{
+    border-left:0.3vw solid transparent;
+    border-bottom:0.3vw solid transparent;
+}
+#box8{
+    border-bottom:0.3vw solid transparent;
+}
+#box9{
+    border-bottom:0.3vw solid transparent;
+    border-right:0.3vw solid transparent;
+}
+#button{
+    position: relative;
+    padding: 1em 1.5em;
+    border-radius: 21px;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+    font-size: 1.5vw;
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+    margin-left: 43.1vw;
+    /* border: 4px solid; */
+}
+
+#demo{
+    margin-left: 38.5vw;
+    border-radius: 6px;
+    /* border: 3px solid red; */
+    height: 5vw;
+    width: 20vw;
+    font-size: 2.5vw;
+    color: black;
+    text-align: center;
+    margin-top: 7vh;
+    padding-top: 2%;
+}
+footer {
+    border-top: 1vw double black;
+    border-left: 1vw double black;
+    margin-top: 4vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    margin-bottom: 2vw;
+    box-shadow: 1vw 1vw 1vw black, -0.5vw -0.5vw 0.5vw #130f0c67, -0.5vw -0.5vw black;
+    border-bottom-right-radius: 3vw;
+    font-size: 2vw;
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------- */
+@media only screen and (max-width: 500px){
+    header{
+        margin-left: 10vw;
+    }
+    .btn {
+        position: relative;
+        padding: 1vw 1.5vw;
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+        outline: none;
+        font-size: 3vw;
+        margin: 2vw 2.8vw;
+    }
+    .btn.effect {
+        color:black;
+    }
+    
+    .btn.effect.effect::after,
+    .btn.effect.effect::before {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 20%;
+        height: 20%;
+        border: 4px solid;
+        transition: all 0.6s ease;
+        border-radius: 2px;
+    }
+    
+    .btn.effect.effect::after {
+        bottom: 0;
+        right: 0;
+        border-top-color: transparent;
+        border-left-color: transparent;
+        border-bottom-color: black;
+        border-right-color: black;
+    }
+    
+    .btn.effect.effect::before {
+        top: 0;
+        left: 0;
+        border-bottom-color: transparent;
+        border-right-color: transparent;
+        border-top-color: black;
+        border-left-color: black;
+    }
+    
+    .btn.effect.effect:hover:after,
+    .btn.effect.effect:hover:before {
+        width: 100%;
+        height: 100%;
+    }
+    #players{
+        position: relative;
+        padding: 1vw 1.5vw;
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+        outline: none;
+        font-size: 3vw;
+        margin-top:8vh;
+    }
+    #playersName{
+        display:none;
+    }
+    #human{
+        display:none;
+        margin-left: 23vw;
+    }
+    #choice{
+        display:none;
+        margin-left:37.3vw;
+    }
+    .choice{
+        border: 0.4vw solid black;
+        color:black;
+        font-size:2vw
+    }
+    #ground{
+        margin-left: 22vw;
+    }
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(3,16.3vw);
+        grid-template-rows: repeat(3,16.3vw);
+    
+    }
+    .box{
+        border-top:0.3vw solid black;
+        border-left:0.3vw solid black;
+        border-bottom:0.3vw solid black;
+        border-right:0.3vw solid black;
+        height:16vw;
+        width:16vw;
+    }
+    img{
+        width:80%;
+        height:80%;
+        margin: 5% 5% 5% 5%;
+    }
+    #box1{
+        border-top:0.3vw solid transparent;
+        border-left:0.3vw solid transparent;
+    }
+    #box2{
+        border-top:0.3vw solid transparent;
+    }
+    #box3{
+        border-top:0.3vw solid transparent;
+        border-right:0.3vw solid transparent;
+    }
+    #box4{
+        border-left:0.3vw solid transparent;
+    }
+    #box6{
+        border-right:0.3vw solid transparent;
+    }
+    #box7{
+        border-left:0.3vw solid transparent;
+        border-bottom:0.3vw solid transparent;
+    }
+    #box8{
+        border-bottom:0.3vw solid transparent;
+    }
+    #box9{
+        border-bottom:0.3vw solid transparent;
+        border-right:0.3vw solid transparent;
+    }
+    #button{
+        position: relative;
+        padding: 1em 1.5em;
+        border-radius: 21px;
+        background-color: transparent;
+        cursor: pointer;
+        outline: none;
+        font-size: 1.5vw;
+        margin-top: 2vh;
+        margin-bottom: 1vh;
+        margin-left: 40.9vw;
+    }
+    
+    #demo{
+        margin-left: 38.5vw;
+        border-radius: 6px;
+        /* border: 3px solid red; */
+        height: 5vw;
+        width: 20vw;
+        font-size: 2.5vw;
+        color: black;
+        text-align: center;
+        margin-top: 7vh;
+        padding-top: 2%;
+    }
+    footer {
+        border-top: 1vw double black;
+        border-left: 1vw double black;
+        margin-top: 4vw;
+        margin-left: 2vw;
+        margin-right: 2vw;
+        margin-bottom: 2vw;
+        box-shadow: 1vw 1vw 1vw black, -0.5vw -0.5vw 0.5vw #130f0c67, -0.5vw -0.5vw black;
+        border-bottom-right-radius: 3vw;
+        font-size: 2vw;
+    }
+}
